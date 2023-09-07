@@ -13,22 +13,25 @@
         background-color: #f0f0f0;
     }
     .left-side {
-        width: 30%; 
+        width: 25%; 
         background-color: #fff;
         padding: 20px;
         padding-bottom: 20px; /* 添加一个内边距来容纳底部链接 */
+        padding-left: 40px; /* 增加左侧内边距 */
         box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
         position: fixed;
         height: 100%;
         overflow: auto;
         display: flex; /* 使 .left-side 成为一个 flex 容器 */
         flex-direction: column; /* 设置 flex 方向为 column */
+        left: 20px; /* 添加左外边距来创建左侧的空间 */
     }
     .right-side {
-        width: 67%; /* 更新宽度以保证它不被左侧区域遮挡 */
-        margin-left: 33%; /* 使得右侧区域与左侧区域紧密相邻但不重叠 */
+        width: 60%; /* 更新宽度以保证它不被左侧区域遮挡 */
+        margin-left: 30%; /* 使得右侧区域与左侧区域紧密相邻但不重叠 */
         background-color: #fff;
         padding: 20px;
+        padding-right: 40px; /* 增加右侧内边距 */
         box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
         overflow: auto;
     }
