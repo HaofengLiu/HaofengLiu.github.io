@@ -9,21 +9,32 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
+        display: flex;
         background-color: #f0f0f0;
     }
-    .container {
-        width: 80%;
-        margin: 0 auto;
+    .left-side {
+        width: 30%;
         background-color: #fff;
         padding: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+    .right-side {
+        width: 70%;
+        margin-left: 30%;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+        overflow: auto;
     }
     .profile-pic {
-        width: 150px;
-        height: 150px;
+        width: 150px; /* 你可以更改这个值来调整头像大小 */
+        height: 150px; /* 保持宽高相等以保持头像的正圆形 */
         border-radius: 50%;
         display: block;
-        margin: 0 auto;
+        margin: 0 auto 20px auto;
     }
     .name {
         text-align: center;
@@ -39,7 +50,7 @@
         padding-bottom: 10px;
         margin-bottom: 10px;
     }
-    .section p {
+    .section p, .section ul {
         margin: 10px 0;
     }
     .section ul {
@@ -53,15 +64,16 @@
 </head>
 <body>
 
-<div class="container">
+<div class="left-side">
     <img src="photo.jpg" alt="头像" class="profile-pic">
-    <div class="name">刘昊峰</div>
-    
+    <div class="name">你的名字</div>
     <div class="section">
         <h2>联系方式</h2>
         <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
     </div>
+</div>
 
+<div class="right-side">
     <div class="section">
         <h2>教育经历</h2>
         <ul>
