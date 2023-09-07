@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>个人简历</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        background-color: #f0f0f0;
+    }
+    .left-side {
+        width: 30%;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+    .right-side {
+        width: 67%; /* 更新宽度以保证它不被左侧区域遮挡 */
+        margin-left: 33%; /* 使得右侧区域与左侧区域紧密相邻但不重叠 */
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+        overflow: auto;
+    }
+    .profile-pic {
+        width: 200px; /* 调整宽度 */
+        height: 250px; /* 调整高度 */
+        border-radius: 0; /* 移除圆角 */
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    .name {
+        text-align: center;
+        font-size: 24px;
+        margin: 10px 0;
+    }
+    .section {
+        margin: 20px 0;
+    }
+    .section h2 {
+        font-size: 20px;
+        border-bottom: 2px solid #f0f0f0;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .section p, .section ul {
+        margin: 10px 0;
+    }
+    .section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .section ul li {
+        margin: 10px 0;
+    }
+</style>
+</head>
+<body>
+
+<div class="left-side">
+    <img src="photo.jpg" alt="头像" class="profile-pic">
+    <div class="name">你的名字</div>
+    <div class="section">
+        <h2>联系方式</h2>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </div>
+
+    <div class="section">
+        <a href="index.html">中文版本</a>
+    </div>
+</div>
+
+  
+<div class="right-side">
+    <div class="section">
+        <h2>教育经历</h2>
+        <ul>
+            <li>大学名称 - 学位 - 时间段</li>
+            <li>学校名称 - 学历 - 时间段</li>
+            <!-- 你可以按照上述格式添加更多的教育经历 -->
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>发表的文章</h2>
+        <ul>
+            <li><a href="#article1-link-here">文章标题1</a> - 发表时间1</li>
+            <li><a href="#article2-link-here">文章标题2</a> - 发表时间2</li>
+            <!-- 你可以按照上述格式添加更多的文章链接 -->
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
