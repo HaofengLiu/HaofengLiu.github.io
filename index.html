@@ -20,6 +20,7 @@
         position: fixed;
         height: 100%;
         overflow: auto;
+        position: relative;
     }
     .right-side {
         width: 67%; /* 更新宽度以保证它不被左侧区域遮挡 */
@@ -60,6 +61,12 @@
     .section ul li {
         margin: 10px 0;
     }
+    .footer {
+        position: absolute;
+        bottom: 20px; /* 调整底部边距 */
+        width: 100%;
+        text-align: center;
+    }
 </style>
 </head>
 <body>
@@ -72,7 +79,7 @@
         <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
     </div>
 
-    <div class="section">
+    <div class="footer">
         <a href="index-en.html">English Version</a>
     </div>
 </div>
