@@ -3,34 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>个人简历</title>
+<title>刘昊峰-个人简历</title>
 <style>
     body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
         display: flex;
-        background-color: #f0f0f0;
+        background-color: #5c665f;
     }
     .left-side {
-        width: 30%;
+        width: 21%; 
         background-color: #fff;
         padding: 20px;
+        padding-bottom: 20px; /* 添加一个内边距来容纳底部链接 */
+        padding-left: 30px; /* 增加左侧内边距 */
+        padding-right: 30px; /* 增加右侧内边距 */
         box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
         position: fixed;
         height: 100%;
         overflow: auto;
+        display: flex; /* 使 .left-side 成为一个 flex 容器 */
+        flex-direction: column; /* 设置 flex 方向为 column */
+        left: 310px; /* 添加左外边距来创建左侧的空间 */
     }
     .right-side {
-        width: 67%; /* 更新宽度以保证它不被左侧区域遮挡 */
-        margin-left: 33%; /* 使得右侧区域与左侧区域紧密相邻但不重叠 */
+        width: 40%; /* 更新宽度以保证它不被左侧区域遮挡 */
+        margin-left: 41%; /* 使得右侧区域与左侧区域紧密相邻但不重叠 */
         background-color: #fff;
         padding: 20px;
+        height: 100vh;
+        padding-left: 30px; /* 增加左侧内边距 */
+        padding-right: 30px; /* 增加右侧内边距 */
         box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
         overflow: auto;
+        right: 300px;
+        padding-bottom: 20px;
     }
     .profile-pic {
-        width: 200px; /* 调整宽度 */
+        width: 250px; /* 调整宽度 */
         height: 250px; /* 调整高度 */
         border-radius: 0; /* 移除圆角 */
         display: block;
@@ -39,6 +50,11 @@
     .name {
         text-align: center;
         font-size: 24px;
+        margin: 10px 0;
+    }
+    .statement {
+        text-align: center;
+        font-size: 16px;
         margin: 10px 0;
     }
     .section {
@@ -60,40 +76,96 @@
     .section ul li {
         margin: 10px 0;
     }
+    .footer {
+        margin-top: auto; /* 将 .footer 推到底部 */
+        margin-bottom: 40px; /* 添加一些底部边距以防止链接消失 */
+        text-align: center;
+    }
+    .increased-line-height {
+        line-height: 2.5; /* 2.5 是行高的倍数，可以根据需要调整 */
+    }
+    .image-row {
+        display: flex;
+        justify-content: space-around; /* 或者可以使用 space-between */
+    }
+
+    .linked-image {
+        width: 120px; /* 你可以根据需要设置适当的宽度 */
+        height: 60px; /* 确保高度与宽度相同，以保持图片的方形 */
+        margin: 0 10px; /* 这会在每张图片的左右两侧各添加10px的空间 */
+    }
+    .letter-space1 {
+        letter-spacing: 12px;
+    }
+    .letter-space2 {
+        letter-spacing: 2px;
+    }
 </style>
 </head>
 <body>
 
 <div class="left-side">
-    <img src="photo.jpg" alt="头像" class="profile-pic">
-    <div class="name">你的名字</div>
+    <img src="/Files/photo.jpg" alt="头像" class="profile-pic">
+    <div class="increased-line-height">
+        <div class="name"><b>刘昊峰</b></div>
+    </div>
+    <div class="statement">在读博士生</div>
+    <div class="statement">英国曼彻斯特大学</div>
+    <div class="statement"><b>研究领域</b>：非正交多址接入，雷达通信一体化，<br>信号处理，系统分析与优化</div>
     <div class="section">
         <h2>联系方式</h2>
-        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>邮箱: <a href="mailto:haofeng.liu@postgrad.manchester.ac.uk">haofeng.liu@postgrad.manchester.ac.uk</a></p>
     </div>
-
+    
     <div class="section">
-        <a href="index-en.html">English Version</a>
+        <h2>了解更多</h2>
+    
+        <div class="image-row">
+            <a href="https://scholar.google.co.uk/citations?user=vhVnJGsAAAAJ&hl=en&oi=sra" target="_blank">
+                <img src="/Files/Google.png" alt="图片1描述" class="linked-image">
+            </a>
+            <a href="https://www.linkedin.com/in/haofeng-liu/" target="_blank">
+                <img src="/Files/Linkin.png" alt="图片2描述" class="linked-image">
+            </a>
+            <a href="https://github.com/HaofengLiu" target="_blank">
+                <img src="/Files/Github.png" alt="图片3描述" class="linked-image">
+            </a>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <a href="index.html">English Version</a>
     </div>
 </div>
 
-  
+    
 <div class="right-side">
     <div class="section">
         <h2>教育经历</h2>
         <ul>
-            <li>大学名称 - 学位 - 时间段</li>
-            <li>学校名称 - 学历 - 时间段</li>
-            <!-- 你可以按照上述格式添加更多的教育经历 -->
+            <li><i>2016年9月-2018年7月</i> : 上海理工大学中英国际学院 - 通信工程 - 学士学位 </li>
+            <li><i>2018年9月-2020年7月</i> : 英国利兹大学 - 电子与通信工程 - 学士学位 </li>
+            <li><i>2020年9月-2021年9月</i> : 英国伦敦大学学院 - 无线与光通信工程 - 硕士学位 </li>
+            <li><i>2022年1月 - 至今</i> <span class="letter-space1"> ： </span> 英国曼彻斯特大学 - 微波和通信系统研究课题组 - 博士学位在读 </li>
         </ul>
     </div>
 
     <div class="section">
         <h2>发表的文章</h2>
         <ul>
-            <li><a href="#article1-link-here">文章标题1</a> - 发表时间1</li>
-            <li><a href="#article2-link-here">文章标题2</a> - 发表时间2</li>
-            <!-- 你可以按照上述格式添加更多的文章链接 -->
+            <li><a href="https://ieeexplore.ieee.org/document/10192417">A Novel ISaC Approach for Uplink NOMA System</a> <br>
+                作者：<b>刘昊峰</b>, Emad Alsusa <br>
+                发表于：IEEE Communications Letters, 2023年七月.</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>相关动态</h2>
+        <ul>
+            <li><i>2019年八月</i> <span class="letter-space2"> ： </span> 获得英国利兹大学奖学金 </li>
+            <li><i>2020年七月</i> <span class="letter-space2"> ： </span> 被英国利兹大学授予学士学位（First Class) 【 <a href="/Files/Bachelor.pdf" target="_blank"> 证书 </a> 】 </li>
+            <li><i>2021年十二月</i> : 被英国伦敦大学学院授予硕士学位（Distinction）【 <a href="/Files/Master.pdf" target="_blank"> 证书 </a> 】 </li>
+            <li><i>2022年一月</i> <span class="letter-space2"> ： </span> 加入英国曼彻斯特大学“微波和通信系统研究课题组”开始攻读博士，导师Emad Alsusa </li>
         </ul>
     </div>
 </div>
