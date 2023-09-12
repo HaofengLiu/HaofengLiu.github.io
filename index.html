@@ -10,7 +10,7 @@
         margin: 0;
         padding: 0;
         display: flex;
-        background-color: #fff;
+        background-color: #cdf2f7;
     }
     .left-side {
         width: 25%; 
@@ -49,9 +49,11 @@
         padding: 20px; /* 为内容添加一些内部空间 */
     }
     .personal-info, .experience-info {
+        display: flex;
         width: 100%; /* 使每个部分都占据容器的整个宽度 */
         text-align: center; /* 居中文本 */
         margin-bottom: 20px; /* 添加一些底部边距 */
+        flex-direction: column; /* 设置为列方向以使下方的文本可以在图片和右侧文本下方显示 */
     }
     .profile-pic {
         width: 60%; /* 调整宽度 */
@@ -122,8 +124,10 @@
         font-size: 16px;
         color: #333;
         /* 这里你可以加入更多的样式来调整文本的展示 */
+    }    
+    .top-section {
+        display: flex; /* 设置为行方向以使图片和右侧文本可以并排显示 */
     }
-
     .text-below-image {
         padding: 10px;
         margin-top: 20px; /* 增加上方的间距 */
