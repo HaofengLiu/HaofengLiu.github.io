@@ -10,42 +10,64 @@
         margin: 0;
         padding: 0;
         display: flex;
-        background-color: #5c665f;
+        background-color: #f5fcfc;
     }
-    .left-side {
-        width: 21%; 
-        background-color: #fff;
-        padding: 20px;
-        padding-bottom: 20px; /* 添加一个内边距来容纳底部链接 */
-        padding-left: 30px; /* 增加左侧内边距 */
-        padding-right: 30px; /* 增加右侧内边距 */
-        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-        position: fixed;
-        height: 100%;
-        overflow: auto;
-        display: flex; /* 使 .left-side 成为一个 flex 容器 */
-        flex-direction: column; /* 设置 flex 方向为 column */
-        left: 310px; /* 添加左外边距来创建左侧的空间 */
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 800px; /* 或任何你想要的最大宽度 */
+        padding: 20px; /* 为内容添加一些内部空间 */
+        padding-left: 10px;
     }
-    .right-side {
-        width: 40%; /* 更新宽度以保证它不被左侧区域遮挡 */
-        margin-left: 41%; /* 使得右侧区域与左侧区域紧密相邻但不重叠 */
-        background-color: #fff;
-        padding: 20px;
-        height: 100vh;
-        padding-left: 30px; /* 增加左侧内边距 */
-        padding-right: 30px; /* 增加右侧内边距 */
-        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
-        overflow: auto;
-        right: 300px;
-        padding-bottom: 20px;
+    .personal-info, .experience-info {
+        display: flex;
+        width: 100%; /* 使每个部分都占据容器的整个宽度 */
+        text-align: left;
+        margin-bottom: 0px; /* 添加一些底部边距 */
+        flex-direction: column; /* 设置为列方向以使下方的文本可以在图片和右侧文本下方显示 */
+        padding-left: 0;
     }
     .profile-pic {
-        width: 250px; /* 调整宽度 */
-        height: 250px; /* 调整高度 */
+        width: 200px; /* 或你想要的任何固定宽度 */
+        height: 200px; /* 或你想要的任何固定高度，以保持和宽度一致 */
         border-radius: 0; /* 移除圆角 */
         display: block;
-        margin: 0 auto 20px auto;
+        margin: 0;
+        text-align: center;
+        flex-shrink: 0; /* 这将防止图片尺寸因为文本区域的大小而改变 */
+    }
+    .text-next-to-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.75; /* 增加行高以实现更均匀的分布 */
+        max-width: calc(100% - 300px); /* 防止文本区域变得太宽 */
+        padding: 10px;
+        font-size: 16px;
+    }
+    .top-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px; /* 为了减少中间的空间 */
+    }
+    @media (max-width: 600px) {
+        .top-section {
+            flex-direction: column;
+            align-items: center;
+        }
+        .text-next-to-image {
+            max-width: 100%;
+            text-align: center;
+        }
+    }
+    .text-below-image {
+        padding: 10px;
+        padding-top: 10px; /* 减小上边距来减少间距 */
+        line-height: 1.5;
     }
     .name {
         text-align: center;
@@ -58,7 +80,8 @@
         margin: 10px 0;
     }
     .section {
-        margin: 20px 0;
+        margin: 5px 0;
+        padding-left: 10px;
     }
     .section h2 {
         font-size: 20px;
@@ -78,95 +101,136 @@
     }
     .footer {
         margin-top: auto; /* 将 .footer 推到底部 */
-        margin-bottom: 40px; /* 添加一些底部边距以防止链接消失 */
+        margin-bottom: 20px; /* 添加一些底部边距以防止链接消失 */
         text-align: center;
     }
-    .increased-line-height {
-        line-height: 2.5; /* 2.5 是行高的倍数，可以根据需要调整 */
-    }
+    /*
     .image-row {
-        display: flex;
-        justify-content: space-around; /* 或者可以使用 space-between */
+        width: 85px;
+        height: auto;
+        flex-wrap: wrap; /* 这行代码让元素在行宽不够时自动换行 */
+        display: inline-block;
+        line-height: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .image-row img {
+        margin-bottom: 10px; /* 添加一些底部边距，使得当图片换行时有一些空间 */
+        display: block;
+        width: 100%; /* 这将使图片填充整个<a>标签 */
+        height: auto;
+    }
+    .linked-image {
+        width: 85px;
+        height: auto; /* 根据原始比例自动设置高度 */
+        margin: 0 10px; 
+    }*/
+    .image-row {
+        display: flex; /* 更改为 flex 以便更好地控制其子元素 */
+        flex-wrap: wrap; /* 这行代码让元素在行宽不够时自动换行 */
+        line-height: 0;
+        padding: 0;
+        margin: 0;
     }
 
-    .linked-image {
-        width: 120px; /* 你可以根据需要设置适当的宽度 */
-        height: 60px; /* 确保高度与宽度相同，以保持图片的方形 */
-        margin: 0 10px; /* 这会在每张图片的左右两侧各添加10px的空间 */
+    .image-row a.linked-image {
+        width: 85px; /* 这使得图片宽度为其父容器的30% */
+        height: auto; /* 根据原始比例自动设置高度 */
+        margin: 0 10px; 
+        display: inline-block; /* 添加这行代码以限制超链接的点击区域 */
+        line-height: 0; /* 防止行高影响布局 */
+        overflow: hidden; /* 防止图片溢出超链接区域 */
     }
-    .letter-space1 {
-        letter-spacing: 12px;
+
+    .image-row a.linked-image img {
+        width: 100%; /* 这将使图片填充整个<a>标签 */
+        height: auto; 
+        margin: 0; /* 移除边距避免额外的空间 */
+        display: block; /* 防止底部出现空白间隙 */
     }
-    .letter-space2 {
-        letter-spacing: 2px;
+    .increased-line-height {
+        line-height: 1.3; /* 1.1 是行高的倍数，可以根据需要调整 */
     }
 </style>
 </head>
 <body>
 
-<div class="left-side">
-    <img src="/Files/photo.jpg" alt="头像" class="profile-pic">
-    <div class="increased-line-height">
-        <div class="name"><b>刘昊峰</b></div>
-    </div>
-    <div class="statement">在读博士生</div>
-    <div class="statement">英国曼彻斯特大学</div>
-    <div class="statement"><b>研究领域</b>：非正交多址接入，雷达通信一体化，<br>信号处理，系统分析与优化</div>
-    <div class="section">
-        <h2>联系方式</h2>
-        <p>邮箱: <a href="mailto:haofeng.liu@postgrad.manchester.ac.uk">haofeng.liu@postgrad.manchester.ac.uk</a></p>
-    </div>
-    
-    <div class="section">
-        <h2>了解更多</h2>
-    
-        <div class="image-row">
-            <a href="https://scholar.google.co.uk/citations?user=vhVnJGsAAAAJ&hl=en&oi=sra" target="_blank">
-                <img src="/Files/Google.png" alt="图片1描述" class="linked-image">
-            </a>
-            <a href="https://www.linkedin.com/in/haofeng-liu/" target="_blank">
-                <img src="/Files/Linkin.png" alt="图片2描述" class="linked-image">
-            </a>
-            <a href="https://github.com/HaofengLiu" target="_blank">
-                <img src="/Files/Github.png" alt="图片3描述" class="linked-image">
-            </a>
+<div class="content-container">
+    <div class="personal-info">
+        <div class="top-section">
+            <img src="/Files/photo.jpg" alt="Photo" class="profile-pic">
+            
+            <div class="text-next-to-image">
+                <div class="name"><b>刘昊峰</b></div>
+                <div class="statement">在读博士生</div>
+                <div class="statement">英国曼彻斯特大学</div>
+            </div>
+        </div>
+        
+        <div class="text-below-image">
+            <div class="section">
+                <h2>研究领域</h2>
+                <p>非正交多址接入，雷达通信一体化，<br>信号处理，系统分析与优化</p>
+            </div>
+            <div class="section">
+                <h2>联系方式</h2>
+                <p>邮箱: <a href="mailto:haofeng.liu@postgrad.manchester.ac.uk">haofeng.liu@postgrad.manchester.ac.uk</a></p>
+            </div>
+        
+            <div class="section">
+                <h2>了解更多</h2>
+            
+                <div class="image-row">
+                    <a href="https://scholar.google.co.uk/citations?user=vhVnJGsAAAAJ&hl=en&oi=sra" target="_blank" class="linked-image">
+                        <img src="/Files/Google.png" alt="图片1描述">
+                    </a>
+                    <a href="https://www.linkedin.com/in/haofeng-liu/" target="_blank" class="linked-image">
+                        <img src="/Files/Linkin.png" alt="图片2描述">
+                    </a>
+                    <a href="https://github.com/HaofengLiu" target="_blank" class="linked-image">
+                        <img src="/Files/Github.png" alt="图片3描述">
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-    
-    <div class="footer">
-        <a href="index.html">English Version</a>
-    </div>
-</div>
 
     
-<div class="right-side">
-    <div class="section">
-        <h2>教育经历</h2>
-        <ul>
-            <li><i>2016年9月-2018年7月 ：</i> 上海理工大学中英国际学院 - 通信工程 - 学士学位 </li>
-            <li><i>2018年9月-2020年7月 ：</i> 英国利兹大学 - 电子与通信工程 - 学士学位 </li>
-            <li><i>2020年9月-2021年9月 ：</i> 英国伦敦大学学院 - 无线与光通信工程 - 硕士学位 </li>
-            <li><i>2022年1月 - 至今</i> <span class="letter-space1"> ： </span> 英国曼彻斯特大学 - 微波和通信系统研究课题组 - 博士学位在读 </li>
-        </ul>
-    </div>
+    <div class="experience-info">
+        <div class="section">
+            <h2>教育经历</h2>
+            <ul>
+                <li><i>2016年9月-2018年7月 ：</i> 上海理工大学中英国际学院 - 通信工程 - 学士学位 </li>
+                <li><i>2018年9月-2020年7月 ：</i> 英国利兹大学 - 电子与通信工程 - 学士学位 </li>
+                <li><i>2020年9月-2021年9月 ：</i> 英国伦敦大学学院 - 无线与光通信工程 - 硕士学位 </li>
+                <li><i>2022年1月 - 至今</i> <span class="letter-space1"> ： </span> 英国曼彻斯特大学 - 微波和通信系统研究课题组 - 博士学位在读 </li>
+            </ul>
+        </div>
 
-    <div class="section">
-        <h2>发表的文章</h2>
-        <ul>
-            <li><a href="https://ieeexplore.ieee.org/document/10192417">A Novel ISaC Approach for Uplink NOMA System</a> <br>
-                作者：<b>刘昊峰</b>, Emad Alsusa <br>
-                发表于：IEEE Communications Letters, 2023年七月.</li>
-        </ul>
-    </div>
+        <div class="section">
+            <h2>发表文章</h2>
+            <ul>
+                <div class="increased-line-height">
+                    <li><a href="https://ieeexplore.ieee.org/document/10192417">A Novel ISaC Approach for Uplink NOMA System</a> <br>
+                    作者：<b>刘昊峰</b>, Emad Alsusa <br>
+                    期刊：IEEE Communications Letters, 2023年七月.</li>
+                </div>
+            </ul>
+        </div>
     
-    <div class="section">
-        <h2>相关动态</h2>
-        <ul>
-            <li><i>2019年八月 <span class="letter-space2"> ： </span></i>  获得英国利兹大学奖学金 </li>
-            <li><i>2020年七月 <span class="letter-space2"> ： </span></i>  被英国利兹大学授予学士学位（First Class) 【 <a href="/Files/Bachelor.pdf" target="_blank"> 证书 </a> 】 </li>
-            <li><i>2021年十二月</i> : 被英国伦敦大学学院授予硕士学位（Distinction）【 <a href="/Files/Master.pdf" target="_blank"> 证书 </a> 】 </li>
-            <li><i>2022年一月 <span class="letter-space2"> ： </span></i>  加入英国曼彻斯特大学“微波和通信系统研究课题组”开始攻读博士，导师Emad Alsusa </li>
-        </ul>
+        <div class="section">
+            <h2>相关动态</h2>
+            <ul>
+                <li><i>2019年八月 <span class="letter-space2"> ： </span></i>  获得英国利兹大学奖学金 </li>
+                <li><i>2020年七月 <span class="letter-space2"> ： </span></i>  被英国利兹大学授予学士学位（First Class) 【 <a href="/Files/Bachelor.pdf" target="_blank"> 证书 </a> 】 </li>
+                <li><i>2021年十二月</i> : 被英国伦敦大学学院授予硕士学位（Distinction）【 <a href="/Files/Master.pdf" target="_blank"> 证书 </a> 】 </li>
+                <li><i>2022年一月 <span class="letter-space2"> ： </span></i>  加入英国曼彻斯特大学“微波和通信系统研究课题组”开始攻读博士，导师Emad Alsusa </li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <a href="index.html">English Version</a>
+        </div>
     </div>
 </div>
 
