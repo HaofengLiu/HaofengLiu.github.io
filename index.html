@@ -42,11 +42,15 @@
         font-size: 16px;
         /* 这里你可以加入更多的样式来调整文本的展示 */
     }    
-    .top-section {
-        display: flex; /* 设置为行方向以使图片和右侧文本可以并排显示 */
-        justify-content: center; /* 这将使元素在容器中水平居中 */
-        align-items: center; /* 这将使元素在容器中垂直居中 */
-        gap: 3%; /* 这将在.profile-pic和.text-next-to-image之间添加一些间距，您可以根据需要调整这个值 */
+    @media (max-width: 800px) {
+        .top-section {
+            display: flex; /* 设置为行方向以使图片和右侧文本可以并排显示 */
+            flex-direction: column;
+            align-items: center; /* 这样可以保证在行布局时内容是垂直居中的 */
+            justify-content: center; /* 这将在列布局时居中内容 */
+            align-items: center; /* 这将使元素在容器中垂直居中 */
+            gap: 3%; /* 这将在.profile-pic和.text-next-to-image之间添加一些间距，您可以根据需要调整这个值 */
+        }
     }
     .text-below-image {
         padding: 10px;
@@ -85,7 +89,7 @@
     }
     .footer {
         margin-top: auto; /* 将 .footer 推到底部 */
-        margin-bottom: 40px; /* 添加一些底部边距以防止链接消失 */
+        margin-bottom: 20px; /* 添加一些底部边距以防止链接消失 */
         text-align: center;
     }
     .image-row {
