@@ -36,20 +36,32 @@
         display: block;
         margin: 0;
         text-align: center;
+        flex-shrink: 0; /* 这将防止图片尺寸因为文本区域的大小而改变 */
     }
     .text-next-to-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 2; /* 增加行高以实现更均匀的分布 */
+        max-width: calc(100% - 300px); /* 防止文本区域变得太宽 */
         padding: 10px;
         font-size: 16px;
-        /* 这里你可以加入更多的样式来调整文本的展示 */
-    }    
+    }
+    .top-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px; /* 为了减少中间的空间 */
+    }
     @media (max-width: 800px) {
         .top-section {
-            display: flex; /* 设置为行方向以使图片和右侧文本可以并排显示 */
             flex-direction: column;
-            align-items: center; /* 这样可以保证在行布局时内容是垂直居中的 */
-            justify-content: center; /* 这将在列布局时居中内容 */
-            align-items: center; /* 这将使元素在容器中垂直居中 */
-            gap: 3%; /* 这将在.profile-pic和.text-next-to-image之间添加一些间距，您可以根据需要调整这个值 */
+            align-items: center;
+        }
+        .text-next-to-image {
+            max-width: 100%;
+            text-align: center;
         }
     }
     .text-below-image {
