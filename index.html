@@ -10,7 +10,7 @@
         margin: 0;
         padding: 0;
         display: flex;
-        background-color: #e6f8fa;
+        background-color: #f5fcfc;
     }
     .content-container {
         display: flex;
@@ -23,7 +23,7 @@
     .personal-info, .experience-info {
         display: flex;
         width: 100%; /* 使每个部分都占据容器的整个宽度 */
-        text-align: left; /* 居中文本 */
+        text-align: left;
         margin-bottom: 20px; /* 添加一些底部边距 */
         flex-direction: column; /* 设置为列方向以使下方的文本可以在图片和右侧文本下方显示 */
     }
@@ -75,7 +75,7 @@
         flex-wrap: wrap; /* 这行代码让元素在行宽不够时自动换行 */
     }
     .image-row img {
-        width: 30%; /* 每个图片占据30%的行宽，根据你的需求调整这个比例 */
+        width: 10%; /* 每个图片占据30%的行宽，根据你的需求调整这个比例 */
         height: auto; /* 保持原始宽高比 */
         max-width: 200px; /* 设置最大宽度，避免图片变得过大 */
         max-height: 200px; /* 设置最大高度，避免图片变得过大 */
@@ -90,7 +90,6 @@
     .text-next-to-image {
         padding: 10px;
         font-size: 16px;
-        color: #333;
         /* 这里你可以加入更多的样式来调整文本的展示 */
     }    
     .top-section {
@@ -98,9 +97,7 @@
     }
     .text-below-image {
         padding: 10px;
-        margin-top: 20px; /* 增加上方的间距 */
         font-size: 16px;
-        color: #555;
         /* 这里你也可以加入更多的样式来调整文本的展示 */
     }
 </style>
