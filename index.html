@@ -40,6 +40,19 @@
         right: 10%;
         padding-bottom: 2%;
     }
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 800px; /* 或任何你想要的最大宽度 */
+        padding: 20px; /* 为内容添加一些内部空间 */
+    }
+    .personal-info, .experience-info {
+        width: 100%; /* 使每个部分都占据容器的整个宽度 */
+        text-align: center; /* 居中文本 */
+        margin-bottom: 20px; /* 添加一些底部边距 */
+    }
     .profile-pic {
         width: 60%; /* 调整宽度 */
         height: 50%; /* 调整高度 */
@@ -98,12 +111,25 @@
         max-height: 200px; /* 设置最大高度，避免图片变得过大 */
         margin-bottom: 10px; /* 添加一些底部边距，使得当图片换行时有一些空间 */
     }
-
     .linked-image {
         width: 30%; /* 这使得图片宽度为其父容器的30% */
         height: auto; /* 根据原始比例自动设置高度 */
         margin: 0 10px; 
         max-width: 120px; /* 设置最大宽度 */
+    }
+    .text-next-to-image {
+        padding: 10px;
+        font-size: 16px;
+        color: #333;
+        /* 这里你可以加入更多的样式来调整文本的展示 */
+    }
+
+    .text-below-image {
+        padding: 10px;
+        margin-top: 20px; /* 增加上方的间距 */
+        font-size: 14px;
+        color: #555;
+        /* 这里你也可以加入更多的样式来调整文本的展示 */
     }
     .color-text {
         color: red;
@@ -112,6 +138,86 @@
 </head>
 <body>
 
+<div class="content-container">
+    <div class="personal-info">
+        <div class="top-section">
+            <img src="/Files/photo.jpg" alt="Photo" class="profile-pic">
+            
+            <div class="text-next-to-image">
+                <div class="increased-line-height">
+                    <div class="name"><b>Haofeng Liu</b></div>
+                </div>
+                <div class="statement">PhD Candidate</div>
+                <div class="statement">University of Manchester, UK</div>
+                <div class="statement"><b>Research interests</b>: Non-Orthogonal Multiple Access, Integrated Sensing and Communication, Signal Processing, System Analysis and Optimisation</div>
+            </div>
+        </div>
+        
+        <div class="text-below-image">
+            <div class="section">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:haofeng.liu@postgrad.manchester.ac.uk">haofeng.liu@postgrad.manchester.ac.uk</a></p>
+            </div>
+        
+            <div class="section">
+                <h2>Find More</h2>
+        
+                <div class="image-row">
+                    <a href="https://scholar.google.co.uk/citations?user=vhVnJGsAAAAJ&hl=en&oi=sra" target="_blank">
+                        <img src="/Files/Google.png" alt="图片1描述" class="linked-image">
+                    </a>
+                    <a href="https://www.linkedin.com/in/haofeng-liu/" target="_blank">
+                        <img src="/Files/Linkin.png" alt="图片2描述" class="linked-image">
+                    </a>
+                    <a href="https://github.com/HaofengLiu" target="_blank">
+                        <img src="/Files/Github.png" alt="图片3描述" class="linked-image">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="experience-info">
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><i><b>September 2016 - July 2018 :</b></i></li>
+                <li>Sino-British College of the University of Shanghai for Science and Technology, China - Communication Engineering - B.S.(Eng) </li>
+                <li><i><b>Spetember 2018 - July 2020 :</b></i></li>
+                <li>University of Leeds, UK - Electronic and Communication Engineering - B.S.(Eng) </li>
+                <li><i><b>September 2020 - September 2021 :</b></i></li>
+                <li>University College London, UK - Wireless and Optical Communication - M.S. </li>
+                <li><i><b>January 2022 - Present :</b></i></li>
+                <li>University of Manchester, UK - Microwave and Communication Systems - PhD Candidate </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Publications</h2>
+            <ul>
+                <li><a href="https://ieeexplore.ieee.org/document/10192417">A Novel ISaC Approach for Uplink NOMA System</a> <br>
+                    Authors: <b>Haofeng Liu</b>, Emad Alsusa <br>
+                    Publisher: IEEE Communications Letters, July 2023.</li>
+            </ul>
+        </div>
+    
+        <div class="section">
+            <h2>Recent News</h2>
+            <ul>
+                <li><i><b>August 2019 :</b></i></li>
+                <li>Obtained scholarship from University of Leeds </li>
+                <li><i><b>July 2020 :</b></i></li>
+                <li>Awarded B.S.(Eng) Honours at University of Leeds (First Class) [ <a href="/Files/Bachelor.pdf" target="_blank"> Certificate </a> ] </li>
+                <li><i><b>December 2021 :</b></i></li>
+                <li>Awarded M.S. at University College London (Distinction) [ <a href="/Files/Master.pdf" target="_blank"> Certificate </a> ] </li>
+                <li><i><b>January 2022 :</b></i></li>
+                <li>Joined Microwave and Communication Systems research group at the University of Manchester as a PhD student, supervised by Emad Alsusa </li>
+            </ul>
+        </div>
+    </div>
+</div>
+    
 <div class="left-side">
     <img src="/Files/photo.jpg" alt="Photo" class="profile-pic">
     <div class="increased-line-height">
@@ -143,46 +249,6 @@
     
     <div class="footer">
         <a href="index-cn.html">中文版本</a>
-    </div>
-</div>
-
-    
-<div class="right-side">
-    <div class="section">
-        <h2>Education</h2>
-        <ul>
-            <li><i><b>September 2016 - July 2018 :</b></i></li>
-            <li>Sino-British College of the University of Shanghai for Science and Technology, China - Communication Engineering - B.S.(Eng) </li>
-            <li><i><b>Spetember 2018 - July 2020 :</b></i></li>
-            <li>University of Leeds, UK - Electronic and Communication Engineering - B.S.(Eng) </li>
-            <li><i><b>September 2020 - September 2021 :</b></i></li>
-            <li>University College London, UK - Wireless and Optical Communication - M.S. </li>
-            <li><i><b>January 2022 - Present :</b></i></li>
-            <li>University of Manchester, UK - Microwave and Communication Systems - PhD Candidate </li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Publications</h2>
-        <ul>
-            <li><a href="https://ieeexplore.ieee.org/document/10192417">A Novel ISaC Approach for Uplink NOMA System</a> <br>
-                Authors: <b>Haofeng Liu</b>, Emad Alsusa <br>
-                Publisher: IEEE Communications Letters, July 2023.</li>
-        </ul>
-    </div>
-    
-    <div class="section">
-        <h2>Recent News</h2>
-        <ul>
-            <li><i><b>August 2019 :</b></i></li>
-            <li>Obtained scholarship from University of Leeds </li>
-            <li><i><b>July 2020 :</b></i></li>
-            <li>Awarded B.S.(Eng) Honours at University of Leeds (First Class) [ <a href="/Files/Bachelor.pdf" target="_blank"> Certificate </a> ] </li>
-            <li><i><b>December 2021 :</b></i></li>
-            <li>Awarded M.S. at University College London (Distinction) [ <a href="/Files/Master.pdf" target="_blank"> Certificate </a> ] </li>
-            <li><i><b>January 2022 :</b></i></li>
-            <li>Joined Microwave and Communication Systems research group at the University of Manchester as a PhD student, supervised by Emad Alsusa </li>
-        </ul>
     </div>
 </div>
 
