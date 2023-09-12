@@ -10,35 +10,7 @@
         margin: 0;
         padding: 0;
         display: flex;
-        background-color: edfdff;
-    }
-    .left-side {
-        width: 25%; 
-        background-color: #fff;
-        padding: 1%;
-        padding-bottom: 2%; /* 添加一个内边距来容纳底部链接 */
-        padding-left: 2%; /* 增加左侧内边距 */
-        padding-right: 2%; /* 增加右侧内边距 */
-        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-        position: fixed;
-        height: 100%;
-        overflow: auto;
-        display: flex; /* 使 .left-side 成为一个 flex 容器 */
-        flex-direction: column; /* 设置 flex 方向为 column */
-        left: 10%; /* 添加左外边距来创建左侧的空间 */
-    }
-    .right-side {
-        width: 40%; /* 更新宽度以保证它不被左侧区域遮挡 */
-        margin-left: 41%; /* 使得右侧区域与左侧区域紧密相邻但不重叠 */
-        background-color: #fff;
-        padding: 2%;
-        height: 100vh;
-        padding-left: 2%; /* 增加左侧内边距 */
-        padding-right: 2%; /* 增加右侧内边距 */
-        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
-        overflow: auto;
-        right: 10%;
-        padding-bottom: 2%;
+        background-color: #edfdff;
     }
     .content-container {
         display: flex;
@@ -51,7 +23,7 @@
     .personal-info, .experience-info {
         display: flex;
         width: 100%; /* 使每个部分都占据容器的整个宽度 */
-        text-align: center; /* 居中文本 */
+        text-align: left; /* 居中文本 */
         margin-bottom: 20px; /* 添加一些底部边距 */
         flex-direction: column; /* 设置为列方向以使下方的文本可以在图片和右侧文本下方显示 */
     }
@@ -97,15 +69,11 @@
         margin-bottom: 40px; /* 添加一些底部边距以防止链接消失 */
         text-align: center;
     }
-    .increased-line-height {
-        line-height: 2.5; /* 2.5 是行高的倍数，可以根据需要调整 */
-    }
     .image-row {
         display: flex;
         justify-content: space-around; /* 或者可以使用 space-between */
         flex-wrap: wrap; /* 这行代码让元素在行宽不够时自动换行 */
     }
-
     .image-row img {
         width: 30%; /* 每个图片占据30%的行宽，根据你的需求调整这个比例 */
         height: auto; /* 保持原始宽高比 */
@@ -148,9 +116,7 @@
             <img src="/Files/photo.jpg" alt="Photo" class="profile-pic">
             
             <div class="text-next-to-image">
-                <div class="increased-line-height">
-                    <div class="name"><b>Haofeng Liu</b></div>
-                </div>
+                <div class="name"><b>Haofeng Liu</b></div>
                 <div class="statement">PhD Candidate</div>
                 <div class="statement">University of Manchester, UK</div>
             </div>
