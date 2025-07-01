@@ -1,22 +1,22 @@
 # English navigation links
 main:
   - title: "About Me"
-    url: "#about-me"
+    url: "/en/#about-me"
 
   - title: "Research Interests"
-    url: "#-news"
+    url: "/en/#-news"
 
   - title: "Publications"
-    url: "#-publications"
+    url: "/en/#-publications"
 
   - title: "News"
-    url: "#-honors-and-awards"
+    url: "/en/#-honors-and-awards"
 
   - title: "Education"
-    url: "#-educations"
+    url: "/en/#-educations"
 
   - title: "Work Experience"
-    url: "#-internships"
+    url: "/en/#-internships"
     
   # 返回中文版链接
   - title: "中文版"
