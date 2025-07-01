@@ -8,6 +8,7 @@ redirect_from:
   - /en/about/
   - /en/about.html
 ---
+
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
@@ -17,41 +18,32 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a researcher at [Your Institution]. My research interests include machine learning, computer vision, and natural language processing. I have published several papers in top-tier conferences and journals.
+Haofeng Liu is currently a doctoral student in the Microwave and Communication Systems Research Group at the University of Manchester, UK, with Professor Emad Alsusa as his supervisor. Previously, he received the bachelor degree from the University of Leeds, UK, and the master degree from University College London, UK. Haofeng Liu served as a member of the IEEE WCNC Technical Project Committee in 2025, and has served as a reviewer for international conferences such as IEEE WCNC and IEEE VTC, as well as popular journals such as IEEE Communication Letters and IEEE Open Journal of the Communications Society. He has won the Outstanding Student Scholarship from the University of Leeds, UK.
 
-My research focuses on developing novel algorithms for deep learning applications. I am particularly interested in neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+# Research Interests
+Wireless Communication, Signal Processing, Theoretical Analysis, Deep Learning, Integrated Sensing and Communication, Non-orthogonal Multiple Access.
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 New paper accepted by CVPR 2022.
-- *2022.02*: &nbsp;🎉🎉 Received the Outstanding Paper Award at ICLR 2022.
+# Publication
+- **Haofeng Liu**, Emad Alsusa，Arafat Al-Dweik，and Nazar T Ali，“<a href="https://www.techrxiv.org/users/781077/articles/1258272-a-csi-anomaly-based-approach-to-isac">A CSI-Anomaly-Based Approach to ISaC</a>”，*TechRxiv. 173699800.09149938*，January 16, 2025.
+- **Haofeng Liu**, Emad Alsusa，and Arafat Al-Dweik，“<a href="https://ieeexplore.ieee.org/document/10946973">Performance Analysis of Pair-wise Symbol Detection in Uplink NOMA-ISaC Systems</a>”，in *IEEE Open Journal of the Communications Society*, vol. 6, pp. 3459-3479, 2025.
+- **Haofeng Liu**, Emad Alsusa，and Arafat Al-Dweik，“<a href="https://ieeexplore.ieee.org/document/10571144/">Efficient Receiver Design for Uplink NOMA-based ISaC Systems with Interference Cancellation</a>”，*2024 IEEE Wireless Communications and Networking Conference (WCNC)*, Dubai, United Arab Emirates, 2024.
+- **Haofeng Liu**, and Emad Alsusa，“<a href="https://ieeexplore.ieee.org/document/10192417">A Novel ISaC Approach for Uplink NOMA System</a>”，in *IEEE Communications Letters*, vol. 27, no. 9, pp. 2333-2337, Sept. 2023.
 
-# 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# News
+- 2023.12：Awarded third place in Research Conference of Department EEE at University of Manchester 【<a href="/images/Poster_conference.pdf" target="_blank">证书</a>】
+- 2022.01：Joined the Microwave and Communication Systems research group at the University of Manchester as a PhD student
+- 2021.12：Awarded M.S. at University College London (Distinction) 【<a href="/images/Master.pdf" target="_blank">证书</a>】
+- 2020.07：Awarded B.S.(Eng) Honours at University of Leeds (First Class) 【<a href="/images/Bachelor.pdf" target="_blank">证书</a>】
+- 2019.08：Obtained Outstanding Student Scholarship from the University of Leeds
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+# Education
+- 2022.01 - 2025.12（预计）：University of Manchester, UK - Microwave and Communication Systems Research Group - PhD Candidate
+- 2020.09 - 2021.09：University College London, UK - Wireless and Optical Communication - M.S. 
+- 2018.09 - 2020.07：University of Leeds, UK - Electronic and Communication Engineering - B.S.(Eng)
 
-**Your Name**, Co-author1, Co-author2, Co-author3
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- This paper introduces a novel deep learning architecture for image recognition tasks.
-</div>
-</div>
-
-- [Another Important Paper on Natural Language Processing](https://github.com), Author A, **Your Name**, Author C, **ICLR 2022**
-
-# 🎖 Honors and Awards
-- *2021.10* Outstanding Research Award, Your University
-- *2021.09* Best Paper Award, International Conference on AI
-
-# 📖 Educations
-- *2019.06 - 2022.04*, Ph.D. in Computer Science, Your University
-- *2015.09 - 2019.06*, B.S. in Computer Science, Your Undergraduate University
-
-# 💬 Invited Talks
-- *2021.06*, "Deep Learning for Computer Vision", International AI Conference
-- *2021.03*, "Recent Advances in Neural Networks", Tech Industry Summit \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, Research Intern, [Google Research](https://research.google.com/), USA
+# Work Experience
+- 2022.09 - Now: Serve as graduate teaching assistant, The University of Manchester, Manchester, United Kingdom
+- 2023.10 - 2024.10: Serve as secretary in IEEE ComSoc Student Chapter, The University of Manchester, Manchester, United Kingdom
+- 2020.10 - 2021.07: Served as student representative at the Department of Electronic and Electrical Engineering, University College London, London, United Kingdom
+- 2019.08 - 2019.09: Worked as an engineer assistant at China Skyworth Group, Shenzhen, China
