@@ -25,6 +25,9 @@ redirect_from:
 
 # 出版刊物
 - **刘昊峰**, Emad Alsusa，Arafat Al-Dweik，and Nazar T Ali，“<a href="https://www.techrxiv.org/users/781077/articles/1258272-a-csi-anomaly-based-approach-to-isac">A CSI-Anomaly-Based Approach to ISaC</a>”，*TechRxiv. 173699800.09149938*，January 16, 2025.
+- **刘昊峰**, Emad Alsusa，and Arafat Al-Dweik，“<a href="https://ieeexplore.ieee.org/document/10946973">Performance Analysis of Pair-wise Symbol Detection in Uplink NOMA-ISaC Systems</a>”，in *IEEE Open Journal of the Communications Society*, vol. 6, pp. 3459-3479, 2025.
+- **刘昊峰**, Emad Alsusa，and Arafat Al-Dweik，“<a href="https://ieeexplore.ieee.org/document/10571144/">Efficient Receiver Design for Uplink NOMA-based ISaC Systems with Interference Cancellation</a>”，*2024 IEEE Wireless Communications and Networking Conference (WCNC)*, Dubai, United Arab Emirates, 2024.
+- **刘昊峰**, and Emad Alsusa，“<a href="https://ieeexplore.ieee.org/document/10192417">A Novel ISaC Approach for Uplink NOMA System</a>”，in *IEEE Communications Letters*, vol. 27, no. 9, pp. 2333-2337, Sept. 2023.
 
 
 # 相关动态
