@@ -3,22 +3,22 @@ main:
   - title: "About Me"
     url: "/en/#about-me"
 
-  - title: "News"
+  - title: "Research Interests"
     url: "/en/#-news"
 
   - title: "Publications"
     url: "/en/#-publications"
 
-  - title: "Honors and Awards"
+  - title: "News"
     url: "/en/#-honors-and-awards"
 
-  - title: "Educations"
+  - title: "Education"
     url: "/en/#-educations"
 
   - title: "Invited Talks"
     url: "/en/#-invited-talks"
 
-  - title: "Internships"
+  - title: "Work Experience"
     url: "/en/#-internships"
     
   # 返回中文版链接
