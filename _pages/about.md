@@ -24,20 +24,8 @@ redirect_from:
 无线通信，信号处理，理论分析，深度学习，雷达通信一体化，非正交多址接入等。
 
 # 出版刊物
+- **刘昊峰**, Emad Alsusa，Arafat Al-Dweik，and Nazar T Ali，“<a href="https://www.techrxiv.org/users/781077/articles/1258272-a-csi-anomaly-based-approach-to-isac">A CSI-Anomaly-Based Approach to ISaC</a>”，*TechRxiv. 173699800.09149938*，January 16, 2025.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 相关动态
 - 2023年12月：英国曼彻斯特大学的电子电气工程学院举办的研究会议中获得第三名 【<a href="/images/Poster_conference.pdf" target="_blank">证书</a>】
