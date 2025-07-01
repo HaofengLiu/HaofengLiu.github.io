@@ -40,10 +40,10 @@ redirect_from:
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 相关动态
-- 2023年12月：英国曼彻斯特大学的电子电气工程学院举办的研究会议中获得第三名 【 <a href="/images/Poster_conference.pdf" target="_blank"> 证书 </a> 】 </li>
+- 2023年12月：英国曼彻斯特大学的电子电气工程学院举办的研究会议中获得第三名 【<a href="/images/Poster_conference.pdf" target="_blank">证书</a>】
 - 2022年1月：加入英国曼彻斯特大学“微波和通信系统研究课题组”开始攻读博士
-- 2021年12月：在英国伦敦大学学院授予硕士学位（Distinction）【 <a href="/images/Master.pdf" target="_blank"> 证书 </a> 】 </li>
-- 2020年7月：在英国利兹大学授予学士学位（First Class)【 <a href="/images/Bachelor.pdf" target="_blank"> 证书 </a> 】 </li>
+- 2021年12月：在英国伦敦大学学院授予硕士学位（Distinction）【<a href="/images/Master.pdf" target="_blank">证书</a>】
+- 2020年7月：在英国利兹大学授予学士学位（First Class)【<a href="/images/Bachelor.pdf" target="_blank">证书</a>】
 - 2019年8月：获得英国利兹大学优秀学生奖学金
 
 # 教育经历
