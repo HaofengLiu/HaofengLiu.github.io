@@ -107,3 +107,65 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* 微信二维码悬浮功能 */
+.wechat-hover-item {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.wechat-qr-popup {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 15px;
+    background: #fff;
+    border: 2px solid #07c160;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    min-width: 200px;
+}
+
+.wechat-hover-item:hover .wechat-qr-popup {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%) translateX(10px);
+}
+
+.wechat-qr-popup img {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+.wechat-qr-caption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #07c160;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* 手机端适配 */
+@media (max-width: 768px) {
+    .wechat-qr-popup {
+        left: 50%;
+        top: 100%;
+        transform: translateX(-50%);
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    
+    .wechat-hover-item:hover .wechat-qr-popup {
+        transform: translateX(-50%) translateY(5px);
+    }
+}
