@@ -134,7 +134,7 @@ defaults:
       author_profile: true
   # English pages
   - scope:
-      path: "_pages/*_en.md"
+      path: "*_en.md"
       type: pages
     values:
       layout: default_en
