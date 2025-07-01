@@ -1,0 +1,26 @@
+# English navigation links
+main:
+  - title: "About Me"
+    url: "/en/#about-me"
+
+  - title: "News"
+    url: "/en/#-news"
+
+  - title: "Publications"
+    url: "/en/#-publications"
+
+  - title: "Honors and Awards"
+    url: "/en/#-honors-and-awards"
+
+  - title: "Educations"
+    url: "/en/#-educations"
+
+  - title: "Invited Talks"
+    url: "/en/#-invited-talks"
+
+  - title: "Internships"
+    url: "/en/#-internships"
+    
+  # 返回中文版链接
+  - title: "中文版"
+    url: "https://haofengliu.github.io/"
