@@ -115,6 +115,15 @@
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>
       {% endif %}
+      {% if author.wechat %}
+        <li class="wechat-hover-item">
+          <span><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat</span>
+          <div class="wechat-qr-popup">
+            <img src="images/wechat.jpg" alt="WeChat QR Code">
+            <div class="wechat-qr-caption">扫码添加微信</div>
+          </div>
+        </li>
+      {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
@@ -209,6 +218,15 @@
       {% endif %}
       {% if author.impactstory %}
         <a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i></a>
+      {% endif %}
+      {% if author.wechat %}
+        <span class="wechat-hover-item">
+          <i class="fab fa-fw fa-weixin" aria-hidden="true"></i>
+          <div class="wechat-qr-popup">
+            <img src="images/wechat.jpg" alt="WeChat QR Code">
+            <div class="wechat-qr-caption">扫码添加微信</div>
+          </div>
+        </span>
       {% endif %}
       {% if author.wikipedia %}
         <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
