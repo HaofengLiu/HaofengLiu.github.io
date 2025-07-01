@@ -31,14 +31,14 @@ Wireless Communication, Signal Processing, Theoretical Analysis, Deep Learning, 
 
 
 # News
-- 2023.12：Awarded third place in Research Conference of Department EEE at University of Manchester 【<a href="/images/Poster_conference.pdf" target="_blank">证书</a>】
+- 2023.12：Awarded third place in Research Conference of Department EEE at University of Manchester 【<a href="/images/Poster_conference.pdf" target="_blank">Certificate</a>】
 - 2022.01：Joined the Microwave and Communication Systems research group at the University of Manchester as a PhD student
-- 2021.12：Awarded M.S. at University College London (Distinction) 【<a href="/images/Master.pdf" target="_blank">证书</a>】
-- 2020.07：Awarded B.S.(Eng) Honours at University of Leeds (First Class) 【<a href="/images/Bachelor.pdf" target="_blank">证书</a>】
+- 2021.12：Awarded M.S. at University College London (Distinction) 【<a href="/images/Master.pdf" target="_blank">Certificate</a>】
+- 2020.07：Awarded B.S.(Eng) Honours at University of Leeds (First Class) 【<a href="/images/Bachelor.pdf" target="_blank">Certificate</a>】
 - 2019.08：Obtained Outstanding Student Scholarship from the University of Leeds
 
 # Education
-- 2022.01 - 2025.12（预计）：University of Manchester, UK - Microwave and Communication Systems Research Group - PhD Candidate
+- 2022.01 - 2025.12 (Plan）：University of Manchester, UK - Microwave and Communication Systems Research Group - PhD Candidate
 - 2020.09 - 2021.09：University College London, UK - Wireless and Optical Communication - M.S. 
 - 2018.09 - 2020.07：University of Leeds, UK - Electronic and Communication Engineering - B.S.(Eng)
 
