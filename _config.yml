@@ -139,7 +139,13 @@ defaults:
     values:
       layout: default_en
       author_profile: true
-
+  # 添加英文页面的具体路径配置
+  - scope:
+      path: "en"
+      type: pages
+    values:
+      layout: default_en
+      author_profile: true
 
 # Sass/SCSS
 sass:
