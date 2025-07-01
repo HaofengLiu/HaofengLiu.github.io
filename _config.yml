@@ -8,6 +8,7 @@
 # Site Settings
 title                    : "刘昊峰"
 description              : "博士研究生在读<br>微波与通信系统研究课题组<br>曼彻斯特大学 "
+description_en           : "An academic personal homepage built with Jekyll and GitHub Pages."
 repository               : "HaofengLiu/Haofeng_Liu.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -24,6 +25,7 @@ author:
   name             : "刘昊峰"
   avatar           : "images/HF_pic_light.jpg"
   bio              : "曼彻斯特大学"
+  bio_en           : "Researcher in Machine Learning and Computer Vision"  # 添加英文简介
   location         : "曼彻斯特，英国"
   employer         :
   pubmed           : 
@@ -126,6 +128,13 @@ defaults:
       type: pages
     values:
       layout: default
+      author_profile: true
+  # English pages
+  - scope:
+      path: "_pages/*_en.md"
+      type: pages
+    values:
+      layout: default_en
       author_profile: true
 
 
