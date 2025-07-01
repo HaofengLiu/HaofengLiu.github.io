@@ -7,8 +7,9 @@
 
 # Site Settings
 title                    : "刘昊峰"
+title_en                 : "Haofeng Liu"
 description              : "博士研究生在读<br>微波与通信系统研究课题组<br>曼彻斯特大学 "
-description_en           : "An academic personal homepage built with Jekyll and GitHub Pages."
+description_en           : "PhD Candidate<br>Microwave and Communication Systems Research Group<br>University of Manchester"
 repository               : "HaofengLiu/Haofeng_Liu.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -23,10 +24,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "刘昊峰"
+  name_en          : "Haofeng Liu"
   avatar           : "images/HF_pic_light.jpg"
   bio              : "曼彻斯特大学"
-  bio_en           : "Researcher in Machine Learning and Computer Vision"  # 添加英文简介
+  bio_en           : "University of Manchester"  # 添加英文简介
   location         : "曼彻斯特，英国"
+  location_en      : "Manchester，UK"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=vhVnJGsAAAAJ&hl"
