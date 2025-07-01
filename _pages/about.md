@@ -17,12 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+刘昊峰，现为英国曼彻斯特大学微波与通信系统研究课题组博士研究生，导师Emad Alsusa教授。此前，他于英国利兹大学获学士学位，并在伦敦大学学院取得硕士学位。学术方面，刘昊峰曾于2025年担任IEEE WCNC技术项目委员会成员，多次担任IEEE WCNC、IEEE VTC等国际会议，及IEEE Communication Letters、IEEE Open Journal of the Communications Society等权威期刊审稿人；曾荣获英国利兹大学优秀学生奖学金。
 
 
 # 研究领域
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+无线通信，信号处理，理论分析，深度学习，雷达通信一体化，非正交多址接入等。
 
 # 出版刊物
 
@@ -41,12 +40,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 相关动态
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- 2023年12月：英国曼彻斯特大学的电子电气工程学院举办的研究会议中获得第三名 【 <a href="/images/Poster_conference.pdf" target="_blank"> 证书 </a> 】 </li>
+- 2022年1月：加入英国曼彻斯特大学“微波和通信系统研究课题组”开始攻读博士
+- 2021年12月：在英国伦敦大学学院授予硕士学位（Distinction）【 <a href="/images/Master.pdf" target="_blank"> 证书 </a> 】 </li>
+- 2020年7月：在英国利兹大学授予学士学位（First Class)【 <a href="/images/Bachelor.pdf" target="_blank"> 证书 </a> 】 </li>
+- 2019年8月：获得英国利兹大学优秀学生奖学金
 
 # 教育经历
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- 2022年1月 - 2025年12月（预计）：英国曼彻斯特大学 - 微波和通信系统研究课题组 - 博士生在读
+- 2020年9月 - 2021年9月：英国伦敦大学学院 - 无线与光通信工程 - 硕士学位
+- 2018年9月 - 2020年7月：英国利兹大学 - 电子与通信工程 - 学士学位
 
 # 工作经历
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- 2022年九月 - 至今: 学生助教，曼彻斯特大学，曼彻斯特，英国
+- 2023年十月 - 2024年十月: IEEE ComSoc Student Chapter秘书，曼彻斯特大学，曼彻斯特，英国
+- 2020年十月 - 2021年七月: 院系学生代表，电子电气工程系，伦敦大学学院，伦敦，英国
+- 2019年八月 - 2019年九月: 工程师助理，中国创维集团担任，深圳，中国
