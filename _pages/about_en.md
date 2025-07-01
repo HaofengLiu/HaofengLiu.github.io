@@ -5,8 +5,8 @@ excerpt: ""
 author_profile: true
 layout: default_en
 redirect_from: 
-  - /en/about/
-  - /en/about.html
+  - /about/
+  - /about.html
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
