@@ -10,7 +10,7 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.bio_en %}<p class="author__bio">{{ author.bio_en }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -120,7 +120,7 @@
           <span><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> Wechat</span>
           <div class="wechat-qr-popup">
             <img src="images/wechat.jpg" alt="WeChat QR Code">
-            <div class="wechat-qr-caption">扫码添加微信</div>
+            <div class="wechat-qr-caption">Scan to add Wechat</div>
           </div>
         </li>
       {% endif %}
