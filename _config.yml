@@ -127,21 +127,14 @@ kramdown:
 defaults:
   # _pages
   - scope:
-      path: ""
+      path: "about"
       type: pages
     values:
       layout: default
       author_profile: true
   # English pages
   - scope:
-      path: "*_en.md"
-      type: pages
-    values:
-      layout: default_en
-      author_profile: true
-  # 添加英文页面的具体路径配置
-  - scope:
-      path: "en"
+      path: "about_en.md"
       type: pages
     values:
       layout: default_en
