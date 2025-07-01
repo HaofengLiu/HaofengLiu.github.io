@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Haofeng Liu"
-description              : "PhD candidate, Microwave and Communication Systems research group, University of Manchester. "
+title                    : "刘昊峰"
+description              : "博士研究生在读，微博与通信系统研究课题组，曼彻斯特大学 "
 repository               : "HaofengLiu/Haofeng_Liu.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -21,10 +21,10 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Haofeng Liu"
+  name             : "刘昊峰"
   avatar           : "images/HF_pic_light.jpg"
-  bio              : "University of Manchester"
-  location         : "Manchester, United Kingdom"
+  bio              : "曼彻斯特大学"
+  location         : "曼彻斯特，英国"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=vhVnJGsAAAAJ&hl"
