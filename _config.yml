@@ -57,9 +57,8 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  wechat: 
-    title: "Wechat Contact"
-    image: "images/wechat.jpg"
+  wechat           : true
+
 
 # Reading Files
 include:
