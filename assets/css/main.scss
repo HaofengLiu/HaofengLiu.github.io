@@ -169,3 +169,13 @@ h1:before, .anchor:before {
         transform: translateX(-50%) translateY(5px);
     }
 }
+
+
+/* WhatsApp颜色覆盖 */
+.whatsapp-qr .wechat-qr-popup {
+    border-color: #25D366;
+}
+
+.whatsapp-qr .wechat-qr-caption {
+    color: #25D366;
+}
