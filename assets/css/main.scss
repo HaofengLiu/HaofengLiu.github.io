@@ -192,17 +192,3 @@ h1:before, .anchor:before {
     height: 70vh; /* 在页面底部添加70%视窗高度的空白 */
     width: 100%;
 }
-
-/* 为每个锚点部分添加适当间距 */
-.anchor {
-    display: block;
-    padding-top: 0.5em;
-    margin-bottom: 0.5em;
-}
-
-/* 确保最后几个部分有足够空间滚动 */
-#-honors-and-awards,
-#-educations,
-#-internships {
-    padding-bottom: 3em;
-}
