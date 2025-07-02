@@ -124,15 +124,6 @@
           </div>
         </li>
       {% endif %}
-      {% if author.whats %}
-        <li class="wechat-hover-item">
-          <span><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> Whats App</span>
-          <div class="wechat-qr-popup">
-            <img src="/images/whats.png" alt="Whats App QR Code">
-            <div class="wechat-qr-caption">Scan to add Whats App</div>
-          </div>
-        </li>
-      {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
@@ -236,15 +227,6 @@
             <div class="wechat-qr-caption">Scan to add Wechat</div>
           </div>
         </span>
-      {% endif %}
-        {% if author.whats %}
-        <li class="wechat-hover-item">
-          <span><i class="fab fa-fw fa-weixin" aria-hidden="true">
-          <div class="wechat-qr-popup">
-            <img src="/images/whats.png" alt="Whats App QR Code">
-            <div class="wechat-qr-caption">Scan to add Whats App</div>
-          </div>
-        </li>
       {% endif %}
       {% if author.wikipedia %}
         <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
