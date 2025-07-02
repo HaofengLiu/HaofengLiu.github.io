@@ -196,8 +196,8 @@ h1:before, .anchor:before {
 /* 为每个锚点部分添加适当间距 */
 .anchor {
     display: block;
-    padding-top: 2em;
-    margin-bottom: 1em;
+    padding-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 /* 确保最后几个部分有足够空间滚动 */
