@@ -180,21 +180,6 @@ h1:before, .anchor:before {
     color: #25D366;
 }
 
-
-/* 精确控制滚动效果 - 推荐方案 */
 .page__content {
-    position: relative;
-}
-
-.page__content::after {
-    content: '';
-    display: block;
-    height: 70vh; /* 在页面底部添加70%视窗高度的空白 */
-    width: 100%;
-}
-
-/* 第一个锚点特殊处理 */
-#about-me:before {
-    height: 20px;      /* 减少第一个锚点的偏移 */
-    margin-top: -20px;
+    padding-bottom: 50vh; /* 添加相当于视窗高度50%的底部空白 */
 }
