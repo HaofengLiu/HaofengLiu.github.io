@@ -17,7 +17,10 @@ main:
 
   - title: "Work Experience"
     url: "/en/#-internships"
-    
+
+  - title: "CV"
+    url: "/images/Haofeng Liu - Wireless communication, AI, Signal processing.pdf"
+  
   # 返回中文版链接
   - title: "中文版"
     url: "https://haofengliu.github.io/"
