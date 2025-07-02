@@ -25,7 +25,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "刘昊峰"
   name_en          : "Haofeng Liu"
-  avatar           : "images/HF_pic_light.jpg"
+  avatar           : "/images/HF_pic_light.jpg"
   bio              : "曼彻斯特大学"
   bio_en           : "University of Manchester"  # 添加英文简介
   location         : "曼彻斯特，英国"
