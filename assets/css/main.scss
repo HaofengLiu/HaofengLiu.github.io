@@ -180,6 +180,9 @@ h1:before, .anchor:before {
     color: #25D366;
 }
 
-.page__content {
-    padding-bottom: 50vh; /* 添加相当于视窗高度50%的底部空白 */
+.page__content::after {
+    content: '';
+    display: block;
+    height: 60vh;
+    width: 100%;
 }
