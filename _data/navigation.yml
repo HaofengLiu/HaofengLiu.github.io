@@ -19,7 +19,7 @@ main:
     url: "/#-internships"
     
   - title: "个人简历"
-    url: "/images/刘昊峰—博士—无线通信，信号处理，与深度学习.pdf"
+    url: "/images/刘昊峰—博士—无线通信，深度学习，与信号处理.pdf"
     
   - title: "English Version"
     url: "https://haofengliu.github.io/en/"  # 这里填写英文版页面的URL
