@@ -25,6 +25,7 @@ redirect_from:
 
 <span class='anchor' id='-publications'></span>
 # 出版刊物
+- **刘昊峰**, Emad Alsusa，and Arafat Al-Dweik，“<a href="https://www.techrxiv.org/users/781077/articles/1325718-joint-user-grouping-and-power-allocation-for-uplink-noma-isac-systems">Joint User Grouping and Power Allocation for Uplink NOMA-ISAC Systems</a>”，*TechRxiv. 175624042.25456081*，August 27, 2025.
 - **刘昊峰**, Emad Alsusa，and Arafat Al-Dweik，“<a href="https://www.techrxiv.org/users/781077/articles/1321115-uav-tracking-using-channel-anomaly-based-deep-learning-in-isac-systems">UAV Tracking Using Channel-Anomaly-Based Deep Learning in ISAC Systems</a>”，*TechRxiv. 175492191.18649834*，August 11, 2025.
 - **刘昊峰**, Emad Alsusa，Arafat Al-Dweik，and Nazar T Ali，“<a href="https://www.techrxiv.org/users/781077/articles/1258272-a-csi-anomaly-based-approach-to-isac">A CSI-Anomaly-Based Approach to ISaC</a>”，*TechRxiv. 173699800.09149938*，January 16, 2025.
 - **刘昊峰**, Emad Alsusa，and Arafat Al-Dweik，“<a href="https://ieeexplore.ieee.org/document/10946973">Performance Analysis of Pair-wise Symbol Detection in Uplink NOMA-ISaC Systems</a>”，in *IEEE Open Journal of the Communications Society*, vol. 6, pp. 3459-3479, 2025.
