@@ -18,11 +18,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Haofeng Liu is currently a doctoral student in the Microwave and Communication Systems Research Group at the University of Manchester, UK, with Professor Emad Alsusa as his supervisor. Previously, he received the bachelor degree from the University of Leeds, UK, and the master degree from University College London, UK. Haofeng Liu served as a member of the IEEE WCNC Technical Project Committee in 2025, and has served as a reviewer for international conferences such as IEEE WCNC and IEEE VTC, as well as popular journals such as IEEE Communication Letters and IEEE Open Journal of the Communications Society. He has won the Outstanding Student Scholarship from the University of Leeds, UK.
+Haofeng Liu is currently a PostDoc Researcher at Peng Cheng Lab, ShenZhen, China. Previously, he received the bachelor degree from the University of Leeds, UK, the master degree from University College London, UK, and the PhD degree from the University of Manchester, UK. Haofeng Liu served as a member of the IEEE WCNC Technical Project Committee in 2025, and has served as a reviewer for international conferences such as IEEE WCNC and IEEE VTC, as well as popular journals such as IEEE Communication Letters and IEEE Open Journal of the Communications Society. He has won the Outstanding Student Scholarship from the University of Leeds, UK.
 
 <span class='anchor' id='-news'></span>
 # Research Interests
-Wireless Communication, Signal Processing, Theoretical Analysis, Deep Learning, Integrated Sensing and Communication, Non-orthogonal Multiple Access.
+Wireless Communication, Satellite Communications, Signal Processing, Theoretical Analysis, Deep Learning, Integrated Sensing and Communication, Non-orthogonal Multiple Access.
 
 <span class='anchor' id='-publications'></span>
 # Publication
@@ -35,6 +35,8 @@ Wireless Communication, Signal Processing, Theoretical Analysis, Deep Learning, 
 
 <span class='anchor' id='-honors-and-awards'></span>
 # News
+- 2026.04：Joined the Peng Cheng Lab
+- 2025.11：Awarded PhD degree at University of Manchester 【<a href="/images/PhD.pdf" target="_blank">Certificate</a>】
 - 2023.12：Awarded third place in Research Conference of Department EEE at University of Manchester 【<a href="/images/Poster_conference.pdf" target="_blank">Certificate</a>】
 - 2022.01：Joined the Microwave and Communication Systems research group at the University of Manchester as a PhD student
 - 2021.12：Awarded M.S. at University College London (Distinction) 【<a href="/images/Master.pdf" target="_blank">Certificate</a>】
@@ -43,14 +45,15 @@ Wireless Communication, Signal Processing, Theoretical Analysis, Deep Learning, 
 
 <span class='anchor' id='-educations'></span>
 # Education
-- 2022.01 - 2025.12 (Plan): University of Manchester, UK - Microwave and Communication Systems Research Group - PhD Candidate
+- 2022.01 - 2025.11: University of Manchester, UK - Microwave and Communication Systems Research Group - PhD
 - 2020.09 - 2021.09: University College London, UK - Wireless and Optical Communication - M.S. 
 - 2018.09 - 2020.07: University of Leeds, UK - Electronic and Communication Engineering - B.S.(Eng)
 
 <span class='anchor' id='-internships'></span>
 
 # Work Experience
-- 2022.09 - Now: Serve as graduate teaching assistant, The University of Manchester, Manchester, United Kingdom
+- 2026.04 - Now: PostDoc Researcher, Peng Cheng Lab, Shenzhen China
+- 2022.09 - 2026.03: Serve as graduate teaching assistant, The University of Manchester, Manchester, United Kingdom
 - 2023.10 - 2024.10: Serve as secretary in IEEE ComSoc Student Chapter, The University of Manchester, Manchester, United Kingdom
 - 2020.10 - 2021.07: Served as student representative at the Department of Electronic and Electrical Engineering, University College London, London, United Kingdom
 - 2019.08 - 2019.09: Worked as an engineer assistant at China Skyworth Group, Shenzhen, China
