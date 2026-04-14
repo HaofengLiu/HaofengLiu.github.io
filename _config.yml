@@ -8,8 +8,8 @@
 # Site Settings
 title                    : "刘昊峰"
 title_en                 : "Haofeng Liu"
-description              : "博士研究生在读<br>微波与通信系统研究课题组<br>曼彻斯特大学 "
-description_en           : "PhD Candidate<br>Microwave and Communication Systems Research Group<br>University of Manchester"
+description              : "博士后<br>鹏程国家实验室<br>"
+description_en           : "PostDoc Researcher<br>Peng Cheng Lab<br>"
 repository               : "HaofengLiu/Haofeng_Liu.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -26,10 +26,10 @@ author:
   name             : "刘昊峰"
   name_en          : "Haofeng Liu"
   avatar           : "/images/HF_pic_light.jpg"
-  bio              : "曼彻斯特大学"
-  bio_en           : "University of Manchester"  # 添加英文简介
-  location         : "曼彻斯特，英国"
-  location_en      : "Manchester，UK"
+  bio              : "鹏程国家实验室"
+  bio_en           : "Peng Cheng Lab"  # 添加英文简介
+  location         : "深圳，中国"
+  location_en      : "ShenZhen, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=vhVnJGsAAAAJ&hl"
