@@ -52,7 +52,7 @@ Wireless Communication, Satellite Communications, Signal Processing, Theoretical
 <span class='anchor' id='-internships'></span>
 
 # Work Experience
-- 2026.04 - Now: PostDoc Researcher, Peng Cheng Lab, Shenzhen China
+- 2026.04 - Now: PostDoc Researcher, Peng Cheng Lab, ShenZhen China
 - 2022.09 - 2026.03: Serve as graduate teaching assistant, The University of Manchester, Manchester, United Kingdom
 - 2023.10 - 2024.10: Serve as secretary in IEEE ComSoc Student Chapter, The University of Manchester, Manchester, United Kingdom
 - 2020.10 - 2021.07: Served as student representative at the Department of Electronic and Electrical Engineering, University College London, London, United Kingdom
