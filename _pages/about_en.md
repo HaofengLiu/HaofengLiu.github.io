@@ -26,9 +26,9 @@ Wireless Communication, Satellite Communications, Signal Processing, Theoretical
 
 <span class='anchor' id='-publications'></span>
 # Publication
+- **Haofeng Liu**, Emad Alsusa，Nazar T Ali，and Arafat Al-Dweik，“<a href="https://ieeexplore.ieee.org/document/11488178">Uncrewed Aerial Vehicle Detection: A Channel State Information Anomaly-Based Approach</a>”，in *IEEE Vehicular Technology Magazine*，April 20, 2026. (*Early Access*)
 - **Haofeng Liu**, Emad Alsusa，and Arafat Al-Dweik，“<a href="https://ieeexplore.ieee.org/document/11320263">Joint User Grouping and Power Allocation for Uplink NOMA-ISAC Systems</a>”，in *IEEE Wireless Communications Letters*, vol. 15, pp. 1345-1349, 2025.
 - **Haofeng Liu**, Emad Alsusa，and Arafat Al-Dweik，“<a href="https://www.techrxiv.org/users/781077/articles/1321115-uav-tracking-using-channel-anomaly-based-deep-learning-in-isac-systems">UAV Tracking Using Channel-Anomaly-Based Deep Learning in ISAC Systems</a>”，*TechRxiv. 175492191.18649834*，August 11, 2025.
-- **Haofeng Liu**, Emad Alsusa，Nazar T Ali，and Arafat Al-Dweik，“<a href="https://ieeexplore.ieee.org/document/11488178">Uncrewed Aerial Vehicle Detection: A Channel State Information Anomaly-Based Approach</a>”，in *IEEE Vehicular Technology Magazine*，April 20, 2026. (*Early Access*)
 - **Haofeng Liu**, Emad Alsusa，and Arafat Al-Dweik，“<a href="https://ieeexplore.ieee.org/document/10946973">Performance Analysis of Pair-wise Symbol Detection in Uplink NOMA-ISaC Systems</a>”，in *IEEE Open Journal of the Communications Society*, vol. 6, pp. 3459-3479, 2025.
 - **Haofeng Liu**, Emad Alsusa，and Arafat Al-Dweik，“<a href="https://ieeexplore.ieee.org/document/10571144/">Efficient Receiver Design for Uplink NOMA-based ISaC Systems with Interference Cancellation</a>”，*2024 IEEE Wireless Communications and Networking Conference (WCNC)*, Dubai, United Arab Emirates, 2024.
 - **Haofeng Liu**, and Emad Alsusa，“<a href="https://ieeexplore.ieee.org/document/10192417">A Novel ISaC Approach for Uplink NOMA System</a>”，in *IEEE Communications Letters*, vol. 27, no. 9, pp. 2333-2337, Sept. 2023.
