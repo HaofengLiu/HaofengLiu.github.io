@@ -18,7 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Haofeng Liu is currently a PostDoc Researcher at Peng Cheng Lab, ShenZhen, China. Previously, he received the bachelor degree from the University of Leeds, UK, the master degree from University College London, UK, and the PhD degree from the University of Manchester, UK. Haofeng Liu served as a member of the IEEE WCNC Technical Project Committee in 2025, and has served as a reviewer for international conferences such as IEEE WCNC and IEEE VTC, as well as popular journals such as IEEE Communication Letters and IEEE Open Journal of the Communications Society. He has won the Outstanding Student Scholarship from the University of Leeds, UK.
+Haofeng Liu is currently a PostDoc Researcher at Peng Cheng Lab, ShenZhen, China. Previously, he received the bachelor degree from the University of Leeds, UK, the master degree from University College London, UK, and the PhD degree from the University of Manchester, UK. Haofeng Liu served as a member of the IEEE WCNC Technical Project Committee in 2025, and has served as a reviewer for international conferences such as IEEE WCNC and IEEE VTC, as well as popular journals such as IEEE Communication Letters, IEEE Open Journal of the Communications Society, and IEEE Transactions on Vehicular Technology. He has won the Outstanding Student Scholarship from the University of Leeds, UK.
 
 <span class='anchor' id='-news'></span>
 # Research Interests
