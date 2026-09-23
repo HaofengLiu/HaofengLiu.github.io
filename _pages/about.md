@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-刘昊峰，现为中国广东省深圳市鹏城国家实验室博士后，主要研究方向为卫星通信。此前，他于英国利兹大学获学士学位，伦敦大学学院取得硕士学位，和于英国曼彻斯特大学取得博士学位。学术方面，刘昊峰曾于2025年担任IEEE WCNC技术项目委员会成员，多次担任IEEE WCNC、IEEE VTC等国际会议，及IEEE Communication Letters、IEEE Open Journal of the Communications Society、IEEE Transactions on Vehicular Technology等权威期刊审稿人；曾荣获英国利兹大学优秀学生奖学金。
+刘昊峰，现为中国广东省深圳市鹏城国家实验室博士后，主要研究方向为卫星通信。此前，他于英国利兹大学获学士学位，伦敦大学学院取得硕士学位，和于英国曼彻斯特大学取得博士学位。学术方面，刘昊峰曾于2025年担任IEEE WCNC技术项目委员会成员，多次担任IEEE WCNC、IEEE VTC等国际会议，及IEEE Communication Letters、IEEE Open Journal of the Communications Society、IEEE Transactions on Vehicular Technology等权威期刊审稿人；曾荣获英国利兹大学优秀学生奖学金。他于2023年至2024年期间担任曼彻斯特大学IEEE通信学会（ComSoc）学生分会的秘书。
 
 <span class='anchor' id='-news'></span>
 # 研究领域
